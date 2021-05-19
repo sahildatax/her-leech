@@ -82,8 +82,8 @@ MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START = int(
 )
 MAX_TG_SPLIT_FILE_SIZE = int(os.environ.get("MAX_TG_SPLIT_FILE_SIZE", "1072864000"))
 # add config vars for the display progress
-FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "█")
-UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "░")
+FINISHED_PROGRESS_STR = os.environ.get("FINISHED_PROGRESS_STR", "★")
+UN_FINISHED_PROGRESS_STR = os.environ.get("UN_FINISHED_PROGRESS_STR", "☆")
 # add offensive API
 TG_OFFENSIVE_API = os.environ.get("TG_OFFENSIVE_API", None)
 CUSTOM_FILE_NAME = os.environ.get("CUSTOM_FILE_NAME", "")
@@ -105,9 +105,9 @@ TELEGRAM_LEECH_UNZIP_COMMAND = os.environ.get(
 CANCEL_COMMAND_G = os.environ.get("CANCEL_COMMAND_G", "cancel")
 GET_SIZE_G = os.environ.get("GET_SIZE_G", "getsize")
 STATUS_COMMAND = os.environ.get("STATUS_COMMAND", "status")
-SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumbnail")
-CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail")
-UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "False")
+SAVE_THUMBNAIL = os.environ.get("SAVE_THUMBNAIL", "savethumb")
+CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumb")
+UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "true")
 PYTDL_COMMAND = os.environ.get("PYTDL_COMMAND", "pytdl")
 GPYTDL_COMMAND = os.environ.get("GPYTDL_COMMAND", "gpytdl")
 LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
